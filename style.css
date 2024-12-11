@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: black;
+    overflow-x: hidden;
+}
+
+.osnova {
+    background: rgb(49, 49, 136);
+    border-radius: 0 0 200px 0;
+    background-image: url(/Progect/pr4/images/pattern.png);
+    color: white;
+}
+
+.osnova .shapka {
+    width: 1400px;
+    margin: auto;
+    height: 800px;
+    padding-top: 25px;
+}
+
+.osnova .shapka .first {
+    display: flex;
+}
+
+
+.osnova .shapka .first img {
+    height: 20px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.osnova .shapka .first .punkts ul {
+    padding-left: 400px;
+    display: flex;
+    gap: 50px;
+}
+
+.osnova .shapka .first .punkts ul li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.osnova .shapka .first .punkts ul li a {
+    cursor: pointer;
+    margin-left: 250px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+
+.textzone {
+    padding-top: 100px;
+    width: 700px;
+    float: left;
+}
+
+.textzone h1 {
+    font-size: 85px;
+}
+
+.textzone p {
+    padding: 20px 0;
+    width: 450px;
+    word-spacing: 2px;
+}
+
+.textzone button {
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 0;
+    transition:all 500ms ease;
+}
+
+.textzone button:hover {
+    transform: scale(1.1);
+}
+
+
+.textzone .niz {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.textzone .niz p{
+    padding-left: 5px;
+}
+
+
+.textzone .niz img{
+    padding-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.sponsored {
+    padding-top: 10px;
+}
+
+.mockup {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 600px;
+    width: auto;
+}
+
+
+.meet {
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.meet .meeting, .info {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.meet .meeting h4,
+.info h4 {
+    text-transform: uppercase;
+    color: #244886;
+    font-size: 14px;
+}
+
+.meet .meeting h1,
+.info h1 {
+    font-size: 36px;
+}
+
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.blocks .block {
+    width: 250px;
+    text-align: center;
+}
+
+.blocks .block h4 {
+    padding: 20px 0;
+}
+
+
+.blocks .block p {
+    color: #343D48;
+}
+
+
+
+
+.core {
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.core .items {
+    padding-left: 100px;
+}
+
+
+.core .items h4, .ranking h5 {
+    text-transform: uppercase;
+    color: #244886
+}
+
+.core .items h1, .ranking h1 {
+    font-size: 48px;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+.core .items img {
+    position: absolute;
+}
+
+.core .items .odin,
+.core .items .dva {
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+
+.core .items .odin h5,
+.core .items .dva h5 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+.core .items .odin p,
+.core .items .dva p {
+    width: 350px;
+}
+
+.info .prewie-text {
+    padding: 100px 0;
+}
+.centrovik {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+}
+
+
+.centrovik .textbox {
+    display: flex;
+    gap: 20px;
+}
+
+.centrovik .textbox img {
+    width: 82px;
+    height: 82px;
+}
+
+.centrovik .textbox h5 {
+    font-size: 18px;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.centrovik .textbox p {
+    text-align: start;
+    width: 280px;
+}
+
+
+.last {
+    padding: 100px 0;
+    display: flex;
+}
+
+
+.last h4 {
+    text-transform: uppercase;
+    color: #244886
+}
+
+.last h1 {
+    padding-top: 10px;
+    font-size: 48px;
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.last p {
+    font-size: 18px;
+    width: 430px;
+    padding-bottom: 20px;
+    word-spacing: 7px;
+}
+
+.last button,
+.ranking button,
+.plans .free button {
+    margin-top: 10px;
+    padding: 16px 40px;
+    border-radius: 30px;
+    border: 0;
+    transition:all 500ms ease;
+    background: #244886;
+    color: white;
+}
+
+.last button:hover,
+.ranking button:hover,
+.plans .free button:hover {
+    transform: scale(1.1);
+}
+
+.last img {
+    position: relative;
+    bottom: 70px;
+}
+
+.strelki{
+    background: rgb(49, 49, 136);
+    background-image: url(/Progect/pr4/images/pattern.png);
+    color: white;
+    height: 700px;
+}
+
+.strelki .logotype {
+    text-align: center;
+}
+
+.strelki .logotype h5 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.strelki .logotype h2 {
+    padding-top: 10px ;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+
+
+.strelki .containers {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.strelki .containers .cont {
+    width: 250px;
+}
+
+.strelki .containers .cont1 {
+    width: 270px;
+}
+
+.strelki .containers .cont h4 {
+    width: 85%;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.strelki .containers .cont1 h4 {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logotype img {
+    position: relative;
+    top: 130px;
+    right: 85px;
+}
+
+
+
+
+.otzuvu .switcher {
+    padding: 30px 0;
+    display: block;
+    margin: auto;
+}
+
+.otzuvu .test {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.otzuvu .test h4 {
+    color: #244886;
+    text-transform: uppercase;
+}
+
+.otzuvu .test h1 {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.otzuvu .clients {
+    display: flex;
+}
+
+
+.otzuvu .clients img {
+    width: 440px;
+    height: auto;
+}
+
+.otzuvu .clients .opasity {
+    opacity: .6;
+}
+
+
+
+
+.transaction-system {
+    margin-top: 150px;
+    background-image: url(/Progect/pr4/images/Bg.png);
+    display: flex;
+}
+
+.transaction-system .ranking {
+    padding-left: 50px;
+}
+
+.ranking p {
+    width: 400px;
+    padding-bottom: 30px;
+    word-spacing: 2px;
+}
+
+
+
+.plan {
+    background: rgb(49, 49, 136);
+    background-image: url(/Progect/pr4/images/pattern.png);
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+
+.plan h5 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.plan h1 {
+    color: white;
+}
+
+
+.metki {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 47px;
+    left: 520px;
+    top: 310px;
+    width: 16px;
+    height: auto;
+}
+
+
+.metki1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 47px;
+    right: 865px;
+    top: 310px;
+    width: 16px;
+    height: auto;
+}
+
+.folse {
+    opacity: 0.5;
+}
+
+.plans {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.plans .free {
+    background: rgb(93, 93, 170);
+    padding: 50px 50px;
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+}
+
+.plans .free p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    opacity: .5;
+}
+
+.plans .free ul li,
+.premium ul li {
+    list-style: none;
+    padding-top: 20px;
+    width: 300px;
+}
+
+
+.plans .free button {
+    margin-top: 50px;
+    margin-left: 75px;
+    padding: 16px 40px;
+    border-radius: 30px;
+    border: 0;
+    transition:all 500ms ease;
+    background: #ffffff;
+    color: black;
+}
+
+.plans .free button:hover {
+    transform: scale(1.1);
+}
+
+
+
+.premium {
+    background: #ffffff;
+    padding: 50px 50px;
+    text-align: left;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.plans .premium p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+.plans .premium button {
+    margin-top: 50px;
+    margin-left: 75px;
+    padding: 16px 40px;
+    border-radius: 30px;
+    border: 0;
+    transition:all 500ms ease;
+    background: #2F5392;
+    color: white;
+}
+
+.plans .premium button:hover {
+    transform: scale(1.1);
+}
+
+.premium h6 {
+    background: #EF9E48;
+    display: inline;
+    position: absolute;
+    top: 180px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+}
+
+.premium h4 {
+    position: absolute;
+    right: 550px;
+    top: 240px;
+    font-size: 22px;
+    color: #3FDBB1;
+}
+
+
+
+
+
+.question {
+    position: relative;
+}
+
+.question h4 {
+    text-transform: uppercase;
+    color: #244886;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.question h1 {
+    text-align: center;
+}
+
+.questions{
+    padding-top: 100px;
+    width: 800px;
+    margin: auto;
+}
+
+.questions h5{
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.questions p {
+    padding-left: 50px;
+}
+
+.questions hr {
+    border: 0;
+    margin: 10px 0;
+    padding: 0.1px 0;
+    background: rgb(226, 222, 222);
+}
+
+
+.znaki{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 28px;
+    left: 315px;
+    top: 268px;
+    width: 16px;
+    height: auto;
+}
+
+.znaki .solo {
+    padding-top: 62px;
+}
+
+
+
+.footer {
+    height: 400px;
+}
+
+.footer hr {
+    border: 0;
+    margin-top: 100px;
+    margin-bottom: -30px;
+    padding: 0.1px 0;
+    background: rgb(226, 222, 222);
+}
+
+.vse {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.vse h5 {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.vse p {
+    padding-top: 10px;
+}
